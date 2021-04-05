@@ -50,16 +50,16 @@ Take note this is an early work in progress, do be patient as we gradually uploa
 ## CPU to GPU Production-level Pipeline for AI
 At Deep Learning Wizard, we cover the basics of some parts of the whole tech stack for production-level CPU/GPU-powered AI.
 
-The following pipeline is created by [Ritchie Ng](https://www.ritchieng.com/) and it's currently being deployed at production-level at firms around the world including [ensemblecap.ai](https://ensemblecap.ai/) where it powers multi-million dollar trades daily. This AI pipeline is entirely based on open-source distributions.
+This AI pipeline is entirely based on open-source distributions.
 
 This stack would get you started, and enable you to adjust the stack according to your needs.
 
 ![](https://res.cloudinary.com/ritchieng/image/upload/v1552889445/deeplearningwizard.com/gpu_ai_pipeline.png)
 
 ## About Deep Learning Wizard
-We deploy a top-down approach that enables you to grasp deep learning theories and code easily and quickly. We have open-sourced all our materials through our Deep Learning Wizard Wikipedia. For visual learners, feel free to sign up for our video course and join over 2300 deep learning wizards.
+We deploy a top-down approach that enables you to grasp deep learning theories and code easily and quickly. We have open-sourced all our materials through our Deep Learning Wizard Wikipedia. For visual learners, feel free to sign up for our video course and join thousands of deep learning wizards.
 
-To this date, we have taught thousands of students across more than 120+ countries from students in high school to postgraduates and professionals in leading MNCs and research institutions around the world.
+To this date, we have taught thousands of students across more than 120+ countries.
 
 ## Contribution
 We are openly calling people to contribute to this repository for errors. Feel free to create a pull request.
@@ -74,6 +74,12 @@ We are openly calling people to contribute to this repository for errors. Feel f
 
 ## Bugs and Improvements
 Feel free to report bugs and improvements via issues. Or just simply try to pull to make any improvements/corrections.
+
+## Social Media
+- [Youtube](https://www.youtube.com/channel/UCJz2MIjiCosOQCwhnsYxeEw)
+- [Twitter](https://twitter.com/deeplearningwiz)
+- [Facebook](https://www.facebook.com/DeepLearningWizard/)
+- [Linkedin](https://www.linkedin.com/company/deeplearningwizard/)
 
 ## Citation
 If you find the materials useful, like the diagrams or content, feel free to cite this repository.

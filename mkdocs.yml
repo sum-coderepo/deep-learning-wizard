@@ -1,17 +1,19 @@
 # Project information
 site_name: 'Deep Learning Wizard'
-site_description: 'Learn deep learning and deep reinforcement learning math and code easily and quickly. Used by thousands of students and professionals from top tech companies and research institutions.'
+site_description: 'We try to make learning deep learning, deep bayesian learning, and deep reinforcement learning math and code easier. Used by thousands.'
 site_author: 'Ritchie Ng'
 site_url: 'https://www.deeplearningwizard.com/'
 
 # Navigation
 nav:
     - Home: index.md
-    - About Us: about.md
-    - Reviews: review.md
-    - AI Pipeline: pipeline.md
-    - Consultancy: consultancy.md
-    - Deep Learning Tutorials (CPU/GPU):
+    - About:
+      - Intro: home.md
+      - About Us: about.md
+      - Reviews: review.md
+      - AI Pipeline: pipeline.md
+      - Consultancy: consultancy.md
+    - Deep Learning (CPU/GPU):
       - Introduction: deep_learning/intro.md
       - Course Progression: deep_learning/course_progression.md
       - Matrices: deep_learning/practical_pytorch/pytorch_matrices.md
@@ -44,7 +46,7 @@ nav:
       - Speed Optimization Basics Numba: deep_learning/production_pytorch/speed_optimization_basics_numba.md
       - Additional Readings: deep_learning/readings.md
 
-    - Machine Learning Tutorials (CPU/GPU):
+    - Machine Learning (CPU/GPU):
       - Introduction: machine_learning/intro.md
       - GPU DataFrames: machine_learning/gpu/rapids_cudf.md
       - GPU/CPU Fractional Differencing: machine_learning/gpu/gpu_fractional_differencing.md
@@ -59,7 +61,7 @@ nav:
 #      - Principal Component Analysis (PCA), Dimensionality Reduction: machine_learning/gpu/rapids_cudf.md
 #      - Uniform Manifold Approximation and Projection (UMAP), Dimensionality Reduction: machine_learning/gpu/rapids_cudf.md
 
-    - Programming Tutorials:
+    - Programming:
       - Introduction: programming/intro.md
       - C++: programming/cpp/cpp.md
       - Bash: programming/bash/bash.md
@@ -68,7 +70,13 @@ nav:
       - Electron: programming/electron/electron.md
 #      - Matplotlib: programming/plotting/matplotlib.md
 
-    - Scalable Database Tutorials:
+    # - Plotting:
+    #   - Introduction: programming/plotting/intro.md
+
+    - Out of Distribution Data:
+      - Introduction: ood/intro.md
+
+    - Scalable Database:
       - Introduction: database/intro.md
       - Cassandra Cluster Setup: database/setting_up_cluster.md
 
@@ -90,15 +98,19 @@ nav:
 # Configuration
 theme:
   name: 'material'
-  custom_dir: 'theme'
+  custom_dir: 'material'
+  # 404 page
+  static_templates:
+    - 404.html
   language: 'en'
   features:
-    - tabs
+    - navigation.tabs
     - instant
   icon:
-    logo: 'material/cloud'
+    logo: 'fontawesome/regular/chart-bar'
   palette:
-    primary: 'blue-grey'
+    scheme: default
+    primary: 'indigo'
     accent: 'indigo'
   font:
     text: 'Roboto'
@@ -132,6 +144,11 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
   - pymdownx.tabbed
+  # - pymdownx.superfences:
+  #     custom_fences:
+  #       - name: mermaid
+  #         class: mermaid-experimental
+  #         format: !!python/name:pymdownx.superfences.fence_code_format
 
 # Equations
 extra_javascript:
@@ -140,12 +157,16 @@ extra_javascript:
 # Social
 extra:
   social:
-    - icon: 'fontawesome/brands/github'
-      link: 'https://github.com/ritchieng'
+    - icon: 'fontawesome/brands/youtube'
+      link: 'https://www.youtube.com/channel/UCJz2MIjiCosOQCwhnsYxeEw'
+    - icon: 'fontawesome/brands/twitter'
+      link: 'https://twitter.com/deeplearningwiz'
     - icon: 'fontawesome/brands/facebook'
       link: 'https://www.facebook.com/DeepLearningWizard/'
     - icon: 'fontawesome/brands/linkedin'
       link: 'https://www.linkedin.com/company/deeplearningwizard/'
+    - icon: 'fontawesome/brands/github'
+      link: 'https://github.com/ritchieng'
   disqus: 'deep-learning-wizard'
 
 # Search
@@ -167,4 +188,4 @@ repo_name: ritchieng/deep-learning-wizard
 repo_url: https://github.com/ritchieng/deep-learning-wizard
 
 # Copyright
-copyright: 'Copyright &copy; 2020 Deep Learning Wizard by Ritchie Ng'
+copyright: 'Copyright &copy; 2021 Deep Learning Wizard by Ritchie Ng'
